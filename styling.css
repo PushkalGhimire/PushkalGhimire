@@ -1,0 +1,72 @@
+@media  (max-width: 700px) {
+    #sideBar{
+        display: none;
+    }
+    .content{
+        align-items: left;
+        margin-left: 10px;
+        position: relative;
+        left: 0em;
+    }
+    #sidb{
+        display: block;
+    }
+    .content .pgHeader{
+        display: none;
+    }
+}
+@media (max-height: 574px) {
+    #sideBar{
+    overflow-y: scroll;
+    }
+}
+@media (max-width: 575px){
+    .sideBar-2 #Nav-mob ul li{
+        font-size: 80%;
+    }
+}
+.sideBar-2{
+    display: none;
+    position: sticky;
+}
+.sideBar-2 #Nav-mob ul li{
+    
+    display: inline-block;
+    margin: 5px 5px;
+}
+.sideBar-2 #Nav-mob ul{
+    list-style: none;
+    
+}
+
+#Nav-mob{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+    background-color:  rgb(192, 189, 192);
+    width: 100%;
+}
+
+.sideBar-2 #Nav-mob ul .cont button{
+    background-color: rgb(92, 103, 199);
+    border-radius: 5px;
+    border:none;
+    font-size: 110%; 
+}
+.sideBar-2 #Nav-mob ul a{
+    font-size: 120%;
+    text-decoration: none;
+    color: black;
+}
+
+.sideBar-2 #Nav-mob ul a:hover{
+    color: blue ;
+}
+#Nav-mob ul li h2{
+    padding: 0px;
+    margin: 0em;
+    font-size: 150%;
+    color: rgb(116, 62, 37);
+    position: relative;
+    left: -25px
+}
